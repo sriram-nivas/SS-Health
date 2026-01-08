@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Health Journey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Chart.js (free CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>My Health Journey</h1>
+    <p>Personal health tracking dashboard</p>
+  </header>
+
+  <!-- ===== OVERVIEW ===== -->
+  <section class="card">
+    <h2>Health Snapshot</h2>
+    <div class="grid">
+      <div class="kpi"><span id="weight">--</span><small>Weight (kg)</small></div>
+      <div class="kpi"><span id="bodyFat">--</span><small>Body Fat %</small></div>
+      <div class="kpi"><span id="rhr">--</span><small>Resting HR</small></div>
+      <div class="kpi"><span id="steps">--</span><small>Steps</small></div>
+    </div>
+  </section>
+
+  <!-- ===== BODY COMPOSITION ===== -->
+  <section class="card">
+    <h2>Body Composition Trend</h2>
+    <canvas id="weightChart"></canvas>
+  </section>
+
+  <!-- ===== VITALS ===== -->
+  <section class="card">
+    <h2>Cardiovascular Health</h2>
+    <canvas id="hrChart"></canvas>
+  </section>
+
+  <!-- ===== WORKOUTS ===== -->
+  <section class="card">
+    <h2>Workout Log</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Type</th>
+          <th>Duration (min)</th>
+          <th>Calories</th>
+        </tr>
+      </thead>
+      <tbody id="workoutTable"></tbody>
+    </table>
+  </section>
+
+  <!-- ===== BLOOD REPORTS ===== -->
+  <section class="card">
+    <h2>Blood Reports</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Test</th>
+          <th>Value</th>
+          <th>Normal Range</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="bloodTable"></tbody>
+    </table>
+  </section>
+
+  <!-- ===== DOCTOR SUMMARY ===== -->
+  <section class="card">
+    <h2>Doctor Summary</h2>
+    <p id="doctorSummary">Loading summary...</p>
+  </section>
+
+  <footer>
+    <small>Private personal health record • No ads • No tracking</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
