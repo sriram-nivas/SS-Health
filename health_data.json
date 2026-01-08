@@ -1,0 +1,141 @@
+{
+  "baseline": {
+    "date": "2025-12-13",
+    "weightKg": 76.7,
+    "bodyFatPct": 21.6,
+    "skeletalMuscleKg": 38.8,
+    "visceralFat": 9,
+    "bmrKcal": 1661,
+    "notes": "Baseline from RENPHO scan"
+  },
+
+  "dailyCheckins": [
+    {
+      "date": "2025-12-13",
+      "weightKg": 76.7,
+      "bodyFatPct": 21.6,
+      "restingHr": 72,
+      "zone2WalkHr": 118,
+      "steps": 8200,
+      "sleepHours": 6.8,
+      "notes": "Baseline day"
+    },
+    {
+      "date": "2025-12-20",
+      "weightKg": 75.8,
+      "bodyFatPct": 21.1,
+      "restingHr": 70,
+      "zone2WalkHr": 115,
+      "steps": 9500,
+      "sleepHours": 7.2,
+      "notes": "More walking this week"
+    },
+    {
+      "date": "2026-01-02",
+      "weightKg": 75.2,
+      "bodyFatPct": 20.4,
+      "restingHr": 68,
+      "zone2WalkHr": 112,
+      "steps": 10200,
+      "sleepHours": 7.4,
+      "notes": "Strength + incline walking"
+    }
+  ],
+
+  "workouts": [
+    {
+      "date": "2026-01-01",
+      "type": "Strength",
+      "durationMin": 45,
+      "calories": 320,
+      "details": "Chest, shoulders, core"
+    },
+    {
+      "date": "2026-01-02",
+      "type": "Cardio + Strength",
+      "durationMin": 60,
+      "calories": 420,
+      "details": "Incline walk + full body"
+    }
+  ],
+
+  "bloodTests": [
+    {
+      "date": "2025-12-10",
+      "name": "LDL Cholesterol",
+      "value": 138,
+      "unit": "mg/dL",
+      "rangeLow": 0,
+      "rangeHigh": 100
+    },
+    {
+      "date": "2025-12-10",
+      "name": "HDL Cholesterol",
+      "value": 42,
+      "unit": "mg/dL",
+      "rangeLow": 40,
+      "rangeHigh": 999
+    },
+    {
+      "date": "2025-12-10",
+      "name": "Triglycerides",
+      "value": 165,
+      "unit": "mg/dL",
+      "rangeLow": 0,
+      "rangeHigh": 150
+    },
+    {
+      "date": "2025-12-10",
+      "name": "ALT",
+      "value": 62,
+      "unit": "U/L",
+      "rangeLow": 7,
+      "rangeHigh": 56
+    },
+    {
+      "date": "2025-12-10",
+      "name": "AST",
+      "value": 44,
+      "unit": "U/L",
+      "rangeLow": 10,
+      "rangeHigh": 40
+    },
+    {
+      "date": "2025-12-10",
+      "name": "TSH",
+      "value": 6.1,
+      "unit": "mIU/L",
+      "rangeLow": 0.4,
+      "rangeHigh": 4.5
+    },
+    {
+      "date": "2025-12-10",
+      "name": "Vitamin B12",
+      "value": 240,
+      "unit": "pg/mL",
+      "rangeLow": 200,
+      "rangeHigh": 900
+    }
+  ],
+
+  "medsAndSupplements": [
+    {
+      "name": "Atorvastatin",
+      "dose": "10 mg",
+      "timing": "Night",
+      "notes": "For LDL control"
+    },
+    {
+      "name": "Levothyroxine",
+      "dose": "25 mcg",
+      "timing": "Morning empty stomach",
+      "notes": "Thyroid support"
+    },
+    {
+      "name": "Vitamin B12",
+      "dose": "1000 mcg",
+      "timing": "Daily",
+      "notes": "Deficiency support"
+    }
+  ]
+}
