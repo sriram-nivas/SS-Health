@@ -1,12 +1,39 @@
 {
+  "profile": {
+    "name": "Srinivas Sriram",
+    "units": {
+      "weight": "kg",
+      "blood": "mixed",
+      "distance": "km",
+      "energy": "kcal"
+    },
+    "timezone": "America/New_York"
+  },
+
+  "goals": {
+    "setDate": "2026-01-02",
+    "targetWeightKgRange": [72.5, 73.0],
+    "targetBodyFatPct": 18.0,
+    "targetFatMassKgApprox": 13.0,
+    "targetSkeletalMuscleKgRange": [38.5, 39.5],
+    "targetVisceralFatRange": [6, 7],
+    "notes": "RENPHO-based goal saved as reference target."
+  },
+
   "baseline": {
     "date": "2025-12-13",
+    "source": "RENPHO",
     "weightKg": 76.7,
     "bodyFatPct": 21.6,
-    "skeletalMuscleKg": 38.8,
+    "fatMassKg": 16.57,
+    "fatFreeMassKg": 60.13,
+    "skeletalMuscleKg": 38.81,
     "visceralFat": 9,
+    "subcutaneousFatPct": 18.8,
+    "bodyWaterPct": 56.6,
     "bmrKcal": 1661,
-    "notes": "Baseline from RENPHO scan"
+    "metabolicAge": 42,
+    "notes": "Official baseline reference for progress tracking toward 18% body fat target."
   },
 
   "dailyCheckins": [
@@ -14,128 +41,159 @@
       "date": "2025-12-13",
       "weightKg": 76.7,
       "bodyFatPct": 21.6,
-      "restingHr": 72,
-      "zone2WalkHr": 118,
-      "steps": 8200,
-      "sleepHours": 6.8,
-      "notes": "Baseline day"
-    },
+      "restingHr": null,
+      "zone2WalkHr": null,
+      "steps": null,
+      "caloriesActive": null,
+      "exerciseMinutes": null,
+      "sleepHours": null,
+      "notes": "Official RENPHO baseline day."
+    }
+  ],
+
+  "bodyComposition": [
     {
-      "date": "2025-12-20",
-      "weightKg": 75.8,
-      "bodyFatPct": 21.1,
-      "restingHr": 70,
-      "zone2WalkHr": 115,
-      "steps": 9500,
-      "sleepHours": 7.2,
-      "notes": "More walking this week"
-    },
-    {
-      "date": "2026-01-02",
-      "weightKg": 75.2,
-      "bodyFatPct": 20.4,
-      "restingHr": 68,
-      "zone2WalkHr": 112,
-      "steps": 10200,
-      "sleepHours": 7.4,
-      "notes": "Strength + incline walking"
+      "date": "2025-12-13",
+      "source": "RENPHO",
+      "weightKg": 76.7,
+      "bodyFatPct": 21.6,
+      "fatMassKg": 16.57,
+      "fatFreeMassKg": 60.13,
+      "skeletalMuscleKg": 38.81,
+      "visceralFat": 9,
+      "subcutaneousFatPct": 18.8,
+      "bodyWaterPct": 56.6,
+      "bmrKcal": 1661,
+      "metabolicAge": 42
     }
   ],
 
   "workouts": [
     {
-      "date": "2026-01-01",
-      "type": "Strength",
+      "date": "2025-12-06",
+      "type": "Gym - Strength + Cardio",
       "durationMin": 45,
-      "calories": 320,
-      "details": "Chest, shoulders, core"
+      "calories": null,
+      "details": "Chest press 7.5kg 3x10; dumbbell straight raise 8kg 3x10 and 10kg 1x10; tricep rope down 15kg 2x10; treadmill 10 mins (speed 3, elevation 3); elliptical 2 mins."
     },
     {
-      "date": "2026-01-02",
-      "type": "Cardio + Strength",
-      "durationMin": 60,
-      "calories": 420,
-      "details": "Incline walk + full body"
+      "date": "2025-12-08",
+      "type": "Home - Core",
+      "durationMin": null,
+      "calories": null,
+      "details": "Plank 30s x2; dead bug 10x2; bird dog 10x2; side toe touches 20x2; leg raises 10x2; glute bridges 10x3."
+    },
+    {
+      "date": "2025-12-09",
+      "type": "Walking",
+      "durationMin": null,
+      "calories": null,
+      "details": "Walking-only day (Apple Watch stats shared in chat images)."
+    },
+    {
+      "date": "2025-12-12",
+      "type": "Home - Core + Outdoor Walking",
+      "durationMin": null,
+      "calories": null,
+      "details": "Plank 40s (2 reps); dead bug 10x3; bird dog 10x3; glute bridge 10x3; butterfly hip swings 20x3; side heel crunches 10x3; leg raises 10x2 + outdoor walking."
+    },
+    {
+      "date": "2025-12-12",
+      "type": "Gym - Strength + Cardio",
+      "durationMin": null,
+      "calories": null,
+      "details": "Chest press 14kg 3x10; lat pull 21kg 3x10; incline press 14kg 3x10; goblet squat 15kg 3x10; lunges 10kg 10/leg; lateral raise 8kg 3x10; treadmill 10 mins (speed 3, incline 3); back pull 14kg 3x10; dead hang 30s x2."
+    },
+    {
+      "date": "2025-12-14",
+      "type": "Gym - Strength",
+      "durationMin": null,
+      "calories": null,
+      "details": "Chest press 21kg 10x3; lat pull 35kg 10x3; shoulder press 14kg 10x2 + 7kg 10x1; seated row 21kg 10x3; goblet stand-to-sit squat 20kg 10x2; lateral raise 8kg 10x3; farmer walk 20kg both hands 1 min; dead hang 35 sec."
+    },
+    {
+      "date": "2025-12-17",
+      "type": "Gym - Strength + Cardio",
+      "durationMin": null,
+      "calories": null,
+      "details": "Chest press 21kg 10x3; lat pull 35kg 10x3; shoulder press 14kg 10x3; seated row 21kg 10x3; elliptical 10 mins; dead hang 30 sec; goblet squats 20kg 10x2."
+    },
+    {
+      "date": "2025-12-18",
+      "type": "Walking",
+      "durationMin": null,
+      "calories": null,
+      "details": "Walking-only day (Apple Watch stats shared in chat images)."
+    },
+    {
+      "date": "2025-12-19",
+      "type": "Gym - Strength + Cardio",
+      "durationMin": null,
+      "calories": null,
+      "details": "Chest press 21kg 10x3; lat pull 35kg 10x3; goblet squat 20kg 10x1; shoulder press 14kg 10x3; lateral raise 8kg 10x2; dead hang 30 sec; farmer carry 20kg each hand 1:30; treadmill walk 20 mins (speed 3, incline 5); leg extension 7kg 10x2; leg curl 7kg 10x2."
+    },
+    {
+      "date": "2025-12-20",
+      "type": "Gym - Core + Cardio + Light Strength",
+      "durationMin": null,
+      "calories": null,
+      "details": "Home core: plank 40s; glute bridges 10x3; dead bug 10x3; bird dog 10x3; side ankle touches 10x3; leg raise 5x3. Gym: treadmill 30 mins (speed 3, incline 3); chest press 14kg 10x3; shoulder press 7kg 10x3; dead hang 30 sec; farmer carry 20kg 1:30; leg extension 7kg 10x2; leg curl 7kg 5x3."
+    },
+    {
+      "date": "2025-12-21",
+      "type": "Gym - Strength + Cardio",
+      "durationMin": null,
+      "calories": null,
+      "details": "Shoulder press 14kg 10x3; seated row 21kg 10x3; goblet squat 20kg x10; dead hang 30 sec; chest press 21kg 10x3; lat pull 28kg 10x3; farmer carry 20kg each 1:30; elliptical 10 mins."
+    },
+    {
+      "date": "2025-12-23",
+      "type": "Gym - Strength + Cardio",
+      "durationMin": null,
+      "calories": null,
+      "details": "Chest press 21kg 10x3; shoulder press 14kg 10x3; dead hang 30 sec; squat 20kg 10x2; lat pull 35kg 10x3; seated row 21kg 10x3; lateral raise 8kg 10x1; elliptical 8 mins; leg extension 7kg 10x2; leg curls 7kg 10x2."
+    },
+    {
+      "date": "2026-01-06",
+      "type": "Gym - Functional Strength",
+      "durationMin": null,
+      "calories": null,
+      "details": "Lat pull 35kg 10x3; seated row 21kg 10x3; goblet squat 20kg 10x2; chest press 21kg 10x3; shoulder press 14kg 10x3; wrist twists 12kg 10x2; lateral raise 10kg 10x2; dumbbell biceps 12kg 10x2; wood chop 17.5kg 10x1 each side; dead hang 30s; leg extension 21kg 10x2; leg curl 14kg 5x3."
     }
   ],
 
-  "bloodTests": [
-    {
-      "date": "2025-12-10",
-      "name": "LDL Cholesterol",
-      "value": 138,
-      "unit": "mg/dL",
-      "rangeLow": 0,
-      "rangeHigh": 100
-    },
-    {
-      "date": "2025-12-10",
-      "name": "HDL Cholesterol",
-      "value": 42,
-      "unit": "mg/dL",
-      "rangeLow": 40,
-      "rangeHigh": 999
-    },
-    {
-      "date": "2025-12-10",
-      "name": "Triglycerides",
-      "value": 165,
-      "unit": "mg/dL",
-      "rangeLow": 0,
-      "rangeHigh": 150
-    },
-    {
-      "date": "2025-12-10",
-      "name": "ALT",
-      "value": 62,
-      "unit": "U/L",
-      "rangeLow": 7,
-      "rangeHigh": 56
-    },
-    {
-      "date": "2025-12-10",
-      "name": "AST",
-      "value": 44,
-      "unit": "U/L",
-      "rangeLow": 10,
-      "rangeHigh": 40
-    },
-    {
-      "date": "2025-12-10",
-      "name": "TSH",
-      "value": 6.1,
-      "unit": "mIU/L",
-      "rangeLow": 0.4,
-      "rangeHigh": 4.5
-    },
-    {
-      "date": "2025-12-10",
-      "name": "Vitamin B12",
-      "value": 240,
-      "unit": "pg/mL",
-      "rangeLow": 200,
-      "rangeHigh": 900
-    }
-  ],
+  "bloodTests": [],
 
   "medsAndSupplements": [
     {
       "name": "Atorvastatin",
-      "dose": "10 mg",
-      "timing": "Night",
-      "notes": "For LDL control"
+      "dose": null,
+      "timing": null,
+      "notes": "Added per your earlier chat about lipid management (fill exact dose/timing if you want it shown)."
     },
     {
-      "name": "Levothyroxine",
-      "dose": "25 mcg",
-      "timing": "Morning empty stomach",
-      "notes": "Thyroid support"
+      "name": "Thyroid medication (Levothyroxine or prescribed)",
+      "dose": null,
+      "timing": "Morning (often empty stomach)",
+      "notes": "Fill exact medication name/dose from prescription."
+    },
+    {
+      "name": "Folic acid",
+      "dose": null,
+      "timing": "Morning (often before breakfast)",
+      "notes": "Fill exact dose per prescription."
     },
     {
       "name": "Vitamin B12",
-      "dose": "1000 mcg",
-      "timing": "Daily",
-      "notes": "Deficiency support"
+      "dose": null,
+      "timing": null,
+      "notes": "Fill exact dose and form (oral/injection)."
+    },
+    {
+      "name": "Milk Thistle",
+      "dose": null,
+      "timing": null,
+      "notes": "Optional supplement—fill dose if you decide to track."
     }
   ]
 }
